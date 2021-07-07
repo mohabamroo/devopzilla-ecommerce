@@ -1,0 +1,26 @@
+{
+  "collectionName": "order_products",
+  "info": {
+    "name": "order-product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "order": {
+      "model": "order",
+      "required": true
+    },
+    "product": {
+      "model": "product",
+      "required": true
+    },
+    "requested_quantity": {
+      "type": "integer"
+    }
+  }
+}

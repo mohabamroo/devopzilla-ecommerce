@@ -1,0 +1,32 @@
+{
+  "collectionName": "orders",
+  "info": {
+    "name": "order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "total_cost": {
+      "type": "float"
+    },
+    "items": {
+      "collection": "order-product"
+    },
+    "status": {
+      "type": "enumration",
+      "enum": [
+        "pending",
+        "paid",
+        "on-route",
+        "fullfilled",
+        "cancelled",
+        "returned"
+      ]
+    }
+  }
+}

@@ -20,14 +20,13 @@
     "price": {
       "type": "float"
     },
+    "available_quantity": {
+      "type": "integer"
+    },
     "image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "files",
-        "images",
-        "videos"
-      ],
+      "allowedTypes": ["files", "images", "videos"],
       "plugin": "upload",
       "required": true
     },
@@ -46,10 +45,7 @@
     },
     "status": {
       "type": "enumeration",
-      "enum": [
-        "draft",
-        "published"
-      ],
+      "enum": ["draft", "published"],
       "default": "published",
       "required": true
     }
