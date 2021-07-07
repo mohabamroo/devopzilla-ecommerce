@@ -9637,7 +9637,7 @@ strapi-provider-upload-local@3.6.5:
   resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.6.5.tgz#0be16515c9c5eeca05211bd9f4b2a93449ccfbe3"
   integrity sha512-VrOtn+ww9VFJFaFBBFzpuOqN2/zYjIG36SD6zA0KaVJVyot/RNdiHiFTpm/W1a34Z/t3ok3/pt35OlEf55XM8Q==
 
-strapi-utils@3.6.5:
+strapi-utils@3.6.5, strapi-utils@^3.6.5:
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.6.5.tgz#782c510ea8bcc9278ddd99a000a24e6db7723f40"
   integrity sha512-Z7mtsfxU5MOVxVBI+h9SffrRasr7qk4twfR5s06OWJ7+ov2o1xV+Hl5vLNZMn6hIBftHbNY/7kPSlC4XUfeLmg==
@@ -10448,7 +10448,7 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@^3.1.0, uuid@^3.2.1, uuid@^3.3.2, uuid@^3.3.3, uuid@^3.4.0:
+uuid@3.4.0, uuid@^3.1.0, uuid@^3.2.1, uuid@^3.3.2, uuid@^3.3.3, uuid@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==

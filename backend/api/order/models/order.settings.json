@@ -11,12 +11,14 @@
     "comment": ""
   },
   "attributes": {
+    "uuid": {
+      "type": "string",
+      "unique": true
+    },
     "total_cost": {
       "type": "float"
     },
-    "items": {
-      "collection": "order-product"
-    },
+
     "status": {
       "type": "enumration",
       "enum": [
